@@ -1,0 +1,101 @@
+body{
+    background-image: url('./img/EPoVZi7X0AA9mR1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    color: rgb(69, 182, 87);
+    text-align: center;
+    text-shadow: 2px 3px 2px rgb(238, 255, 3), 0 0 1em blue, 0 0 0.2em blue;
+    font-family: sans-serif;
+}
+.brasil-flag{
+    border-radius: 10px;
+    position: relative;
+    background-color: #143b1b;
+    width: 450px;
+    height: 350px;
+    margin-bottom: 20rem;
+
+}
+.brasil-flag .losangue::before,
+.brasil-flag .losangue::after{
+    position: absolute;
+
+}
+.brasil-flag .losangue{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.brasil-flag .losangue::before,
+.brasil-flag .losangue::after{
+    content: '';
+    width: 0;
+    height: 0;
+    left: 10px;
+    right: 10px;
+}
+.brasil-flag .losangue::before{
+    border-left: 215px solid transparent;
+    border-right: 215px solid transparent;
+    border-bottom: 65px solid #ffe11f;
+    top: 110px;
+}
+.brasil-flag .losangue::after{
+    border-left: 215px solid transparent;
+    border-right: 215px solid transparent;
+    border-top: 65px solid #ffe11f;
+    bottom: 110px;
+}
+.brasil-flag .circle{
+    overflow: hidden;
+    z-index: 2;
+    display: block;
+    background-color:#022268;
+    height: 90px;
+    width: 150px;
+    margin-left: -40px;
+    margin-top: -40px;
+    top: 48%;
+    left: 42%;
+    position: absolute;
+    border-radius: 50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+}
+.brasil-flag .circle,
+.brasil-flag .circle::before,
+.brasil-flag .circle::after{
+    top: 48%;
+    left: 43%;
+    position: absolute;
+    border-radius: 50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%
+
+}
+
+.circle p{
+    text-transform: uppercase;
+    letter-spacing: 1.7px;
+    background-color: #fff;
+    color: rgb(4, 110, 4);
+    text-align: center;   
+   
+    font-weight: 600;
+    font-size: 10px;
+    transform: rotate(6deg);
+}
+
+.star,.star2{
+    margin-top: 10px;
+    margin-left: 40px;
+}
